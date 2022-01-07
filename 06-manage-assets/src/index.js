@@ -7,7 +7,6 @@ import jpgMap from './assets/Forest_road_Slavne_2017_G8.jpg'
 import './style.css'
 import './style.less'
 
-
 /**分别演示了js代码的打包和各种文件资源的打包*/
 helloWorld()
 
@@ -22,6 +21,7 @@ document.body.appendChild(img2)
 
 const block = document.createElement('div')
 block.style.cssText = 'width:200px; height:200px; background:aliceblue'
+block.classList.add('block-bg') //在css中加载图片
 block.textContent = exampleTxt
 document.body.appendChild(block)
 
@@ -31,3 +31,4 @@ img3.src = jpgMap
 document.body.appendChild(img3)
 
 document.body.classList.add('hello')
+

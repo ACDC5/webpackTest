@@ -1,0 +1,8 @@
+.hello {
+    color:red;
+}
+
+.block-bg {
+    /*在其他地方也使用了background-image，所以用!important提高该样式的优先级*/
+    background-image: url("./assets/logo.svg") !important;
+}
