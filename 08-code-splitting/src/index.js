@@ -6,10 +6,17 @@ import jpgMap from './assets/Forest_road_Slavne_2017_G8.jpg'
 import _ from 'lodash'
 
 // https://www.bilibili.com/video/BV1YU4y1g745?p=43
-import './async-module.js' //动态导入
+import './async-module.js' //使用动态导入来分离代码(公共的代码)
 
 import './style.css'
 import './style.less'
+
+/**
+ *  TODO https://www.bilibili.com/video/BV1YU4y1g745?p=44 从这开始
+ *  就没往下记笔记和写代码了(讲的枯燥)；计划先把剩下的全部看完，以后用到在看一遍和在
+ *  这个项目中写一遍
+ *
+ * */
 
 /**分别演示了js代码的打包和各种文件资源的打包*/
 helloWorld()
